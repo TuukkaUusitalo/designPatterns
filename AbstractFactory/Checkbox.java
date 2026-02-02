@@ -1,3 +1,5 @@
+package AbstractFactory;
+
 abstract public class Checkbox {
 
     protected String text;

@@ -1,3 +1,5 @@
+package AbstractFactory;
+
 abstract public class UIFactory {
 
     abstract Button createButton(String text);

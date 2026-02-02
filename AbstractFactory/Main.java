@@ -1,3 +1,5 @@
+package AbstractFactory;
+
 public class Main {
     public static void main(String[] args) {
         UIFactory a_factory = new AFactory();

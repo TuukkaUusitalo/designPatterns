@@ -1,3 +1,5 @@
+package AbstractFactory;
+
 public class AFactory extends UIFactory {
 
     @Override

@@ -1,3 +1,5 @@
+package AbstractFactory;
+
 public class CheckBoxB extends Checkbox {
     public CheckBoxB(String text) {
         super(text);
