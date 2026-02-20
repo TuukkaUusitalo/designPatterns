@@ -19,7 +19,7 @@ public final class Logger {
         return instance;
     }
 
-    // fields
+    // text fields
     private BufferedWriter writer;
     private String currentFileName;
 
