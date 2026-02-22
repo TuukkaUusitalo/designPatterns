@@ -12,7 +12,7 @@ public class NoviceState implements State {
     public void train(GameCharacter c) {
         System.out.println("* Training (Novice).");
         c.gainXp(20);
-        // HP ei muutu
+        // HP doesn't change
     }
 
     @Override

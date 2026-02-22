@@ -38,7 +38,7 @@ public class GameCharacter {
         if (this.hp > maxHp) this.hp = maxHp;
         int actual = this.hp - before;
         if (actual != 0) {
-            System.out.println("HP " + (actual > 0 ? "+" : "") + actual + " → " + this.hp + "/" + maxHp);
+            System.out.println("HP " + (actual > 0 ? "+" : "") + actual + " --> " + this.hp + "/" + maxHp);
         } else {
             System.out.println("HP stays: " + this.hp + "/" + maxHp);
         }
@@ -46,7 +46,7 @@ public class GameCharacter {
 
     public void setState(State newState) {
         if (this.state.getClass() == newState.getClass()) return;
-        System.out.println("--- Level changing: " + this.state.name() + " → " + newState.name());
+        System.out.println("-- Level changing: " + this.state.name() + " --> " + newState.name());
         this.state = newState;
     }
 
