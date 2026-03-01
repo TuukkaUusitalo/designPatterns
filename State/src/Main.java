@@ -17,7 +17,7 @@ public class Main {
 
         boolean running = true;
         while (running) {
-            System.out.println("------------------------------------------");
+            System.out.println("--------------------");
             System.out.println(c.statusLine());
             c.getState().showActions();
             System.out.println("[Q]uit");

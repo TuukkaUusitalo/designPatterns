@@ -5,7 +5,7 @@ public class GameCharacter {
     private final int maxHp;
     private State state;
 
-    // XP limits
+    // experience (XP) limits
     public static final int XP_TO_INTERMEDIATE = 100;
     public static final int XP_TO_EXPERT = 300;
     public static final int XP_TO_MASTER = 600;
