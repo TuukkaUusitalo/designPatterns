@@ -13,6 +13,7 @@
         <module>OrganizationStructure</module>
         <module>Observer</module>
         <module>singleton</module>
+        <module>Memento</module>
     </modules>
 
     <properties>
