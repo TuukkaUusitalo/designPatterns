@@ -14,6 +14,7 @@
         <module>Observer</module>
         <module>singleton</module>
         <module>Memento</module>
+        <module>Command</module>
     </modules>
 
     <properties>
